@@ -1,0 +1,17 @@
+[project]
+name = "uav-mechanical-ground-school"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rain233333", email = "zouyunzhi0@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+uav-mechanical-ground-school = "uav_mechanical_ground_school:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
